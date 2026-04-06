@@ -1,2 +1,2 @@
 # ThriveNFC
-NFC Business Cards
+Photography & Videographer
