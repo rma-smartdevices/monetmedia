@@ -112,6 +112,15 @@
         object-fit: cover;
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
       }
+
+      @media (max-width: 480px) {
+        html,
+        body {
+          min-height: 100%;
+          overflow: hidden;
+          padding-top: env(safe-area-inset-top);
+        }
+      }
     </style>
   </head>
 
